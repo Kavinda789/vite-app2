@@ -20,8 +20,8 @@ function Navbar() {
             {/* Menu Item */}
             <div className="hidden lg:block">
               <ul className="flex items-center gap-5">
-                {Menu.map((data, index) => (
-                  <li key={index}>
+                {Menu.map((data, i) => (
+                  <li key={i}>
                     <a
                       className="inline-block px-4 font-semibold
                         text-gray-500 hover:text-black duration-200"
